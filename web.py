@@ -6,8 +6,11 @@ from typing import Generator
 from groq import Groq
 
 # Load the JSON data
-with open(r'C:\Users\USER\Desktop\Chatbot Project\data.json', 'r') as f:
+#with open(r'C:\Users\USER\Desktop\Chatbot Project\data.json', 'r') as f:
+with open('data.json', 'r') as f:
     data = json.load(f)
+
+   
 
 # Initialize the Groq client
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
