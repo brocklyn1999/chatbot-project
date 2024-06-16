@@ -13,7 +13,11 @@ with open('data.json', 'r') as f:
    
 
 # Initialize the Groq client
-client = Groq(api_key=st.secrets["GROQ_API_KEY"])
+#client = Groq(api_key=st.secrets["GROQ_API_KEY"])
+
+client = Groq(
+    api_key=st.secrets["GROQ_API_KEY"],
+)
 
 # Set Streamlit page configuration
 st.set_page_config(page_icon="💬", layout="wide", page_title="EASTC Chatbot")
