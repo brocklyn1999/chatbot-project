@@ -1,0 +1,443 @@
+{
+    "intents": [
+        {
+            "tag": "greet",
+            "patterns": [
+                "hello", "Hi", "hey there", "How are you?", "holla", "what's up", "Hey", "Morning", "Afternoon", "Evening"
+            ],
+            "responses": [
+                "Hello there, how can I help you?", "Hello", "Hey!! Good to see you, how can I assist you?", "Hi there, how can I help?", "Hi there, how can I assist you?"
+            ]
+        },
+        {
+            "tag": "about_eastc",
+            "patterns": [
+                "Tell me about EASTC",
+                "What is EASTC?",
+                "I want to know about EASTC",
+                "Can you give me information about EASTC?",
+                "What does EASTC stand for?",
+                "Eastern Africa statistical training center",
+                "Is EASTC a good college",
+                "i need to know about EASTC",
+                "give me details about EASTC",
+                "information about EASTC",
+                "details about EASTC",
+                "what do you know about EASTC",
+                "EASTC info",
+                "tell me about EASTC college"
+                
+            ],
+            "responses": [
+                "The Eastern Africa Statistical Training Centre (EASTC) was established in 1961 to address the shortage of statisticians in Africa. Initially located in Dar es Salaam, Tanzania, the Centre began operations in 1965, offering middle and later intermediate level training. It became a regional institution serving multiple African countries. EASTC evolved into a higher learning institution in 2012, offering degrees in Official Statistics, and later introduced graduate programs, including a Master's Degree in Official Statistics in 2014 and a Master's Degree in Agricultural Statistics in 2015. EASTC is owned by 19 countries and continues to serve Anglophone Africa.",
+                "The Eastern Africa Statistical Training Centre (EASTC) is a Government Higher Learning institution under the Ministry of Finance and Planning. It is also a regional institution, which trains Official Statistics across the Eastern Africa Region currently serving 19 member countries."
+                
+            
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye", "See you later", "Goodbye", "talk to you later", "Till next time", "bbye", "ok", "Thank you"
+            ],
+            "responses": [
+                "Have a nice day :)", "Talk to you later", "Goodbye!", "bye, Come back soon"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me", "Thank you for your help"
+            ],
+            "responses": [
+                "You're welcome! Is there anything else I can assist you with?", "Any time! How else can I help you?", "My pleasure! Need any further assistance?"
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Sorry, I can't understand you", "Please give me more info", "Not sure I understand"
+            ]
+        },
+        {
+            "tag": "working-hours",
+            "patterns": [
+                "what are your working hours", "working hours", "What are the times you operate?", "timing of college", "what is college timing", "working days", "when are you guys open", "what are your hours", "hours of operation", "when is the college open", "college timing", "what about college timing", "is college open on saturday", "tell something about college timing", "what is the college hours", "when should i come to college", "when should i attend college", "what is my college time", "college timing", "timing college", "Are you open on weekends or holidays", "Are there specific hours for registration office", "Is there a way to see a list of all professor office hours"
+            ],
+            "responses": [
+                "College is open 8am-4pm Monday-Friday!", "The college is open from 8 AM to 4 PM, Monday to Friday", "Our operating hours are only 8 AM to 4 PM weekdays.", "We are open from 8 in the morning until 4 in the afternoon, Monday through Friday.", "You can visit the college between 8 AM and 4 PM Monday to Friday.", "The college hours are 8 AM to 4 PM Monday to Friday.", "We are available from 8 AM to 4 PM on weekdays.", "The college is accessible from 8 AM to 4 PM, Monday to Friday.", "Our hours of operation are 8 AM to 4 PM, Monday to Friday.", "We are open Monday through Friday from 8 AM to 4 PM.", "The working hours are from 8 AM to 4 PM. Monday to Friday."
+            ]
+        },
+        {
+            "tag": "contact-information",
+            "patterns": [
+                "contact information?", "contact info", "how to contact college", "college telephone number", "college number", "What is your contact no", "Contact number?", "how to call you", "College phone no?", "how can i contact you", "Can i get your phone number", "how can i call you", "phone number", "phone no", "call", "university phone number", "admission phone number", "university number", "how can i contact admission?", "how can I reach admission", "Number", "Email"
+            ],
+            "responses": [
+                "You can contact admission at: 0735 784 106, 0784 784 106, Email: admission.officer@eastc.ac.tz"
+            ]
+        },
+        {
+            "tag": "library",
+            "patterns": [
+                "library working hours?", "library opening hours?", "is there any library", "library facility", "library facilities", "do you have library", "does the college have library facility", "college library", "where can i get books", "book facility", "Where is library", "Library", "Library information", "Library books information", "Tell me about library", "how many libraries", "eastc library", "where is a eastc library", "Is the library open on weekends?", "What are the library hours?", "when is the library open"
+            ],
+            "responses": [
+                "The library is the heart of the EASTC and it is an integral part of the Eastern Africa Statistical Training Centre's mission which revolves around teaching, studying, research, and consultancy. Opening hours: Weekdays 08:00 AM - 10:00 PM, Weekends: Saturday 08:00 AM - 05:00 PM and Sunday 09:00 AM - 01:00 PM, Public holidays: Closed. For more information about Centre's library such as Library guidelines and E-resource access visit https://www.eastc.ac.tz/index.php?r=site%2Flibrary2 or https://www.eastc.ac.tz/index.php?r=site%2Flibrary"
+            ]
+        },
+        {
+            "tag": "programmes",
+            "patterns": [
+                "What courses does the college offer?",
+                "Can you provide a list of available courses?",
+                "Which courses can I take at this college?",
+                "list of courses",
+                "list of courses offered",
+                "list of courses offered in",
+                "what are the courses offered in your college?",
+                "courses?",
+                "courses offered",
+                "courses available at Eastc",
+                "courses offered at Eastc",
+                "programmes offered at EASTC",
+                "programmes?",
+                "course available?"
+            ],
+            "responses": [
+                {
+                    "type": "list",
+                    "content": [
+                        "Masters of Official Statistics",
+                        "Masters of Science in Agricultural Statistics",
+                        "Postgraduate Diploma in Official Statistics",
+                        "Postgraduate Diploma in Agricultural Statistics",
+                        "Bachelor Degree in Official Statistics (3 years)",
+                        "Bachelor Degree in Agricultural Statistics and Economics (3 years)",
+                        "Bachelor of Degree in Data Science (3 years)",
+                        "Bachelor Degree in Business Statistics and Economics (3 years)",
+                        "Diploma in Statistics (2 years)",
+                        "Diploma in Information Technology (2 years)",
+                        "Basic Technician Certificate in Statistics (1 year)",
+                        "Basic Technician Certificate in Information Technology (1 year)"
+                    ]
+                }
+            ]
+        },
+        {
+            "tag": "control number",
+            "patterns": [
+                "control number?", "how to request control number?", "payments", "how to pay tuition fees", "how to pay other fees", "control number for other fees", "request control number", "control no?"
+            ],
+            "responses": [
+                "New and current Students can request control number for tuition fee, administrative cost and other payments through https://payment.eastc.ac.tz/index.php?r=bill%2Fcreate"
+            ]
+        },
+        {
+            "tag": "entry-qualification",
+            "patterns": [
+                "entry qualification for applying", "what are the entry qualifications", "qualifications for admission", "requirements for applying", "admission requirements", "what are the requirements to apply", "qualifications needed for programs", "entry requirements for different programs", "admission criteria for programs", "criteria for applying to programs", "eligibility for programs", "eligibility criteria", "qualification for joining eastc?", "entry qualifications?", "joining qualification?", "how can i join eastc"
+            ],
+            "responses": [
+                "please [click here](https://olap.eastc.ac.tz/site/login), to see information on the entry qualifications for different programs."
+            ]
+        },
+        {
+            "tag": "entry-qualification-masters-official-statistics",
+            "patterns": [
+                "What are the entry requirements for the Masters of Official Statistics?",
+                "How can I apply for the Masters of Official Statistics?",
+                "What qualifications do I need for the Masters of Official Statistics?",
+                "Can you tell me the admission criteria for the Masters of Official Statistics?",
+                "What are the eligibility criteria for the Masters of Official Statistics?",
+                "What do I need to join the Masters of Official Statistics program?"
+            ],
+            "responses": [
+                "To join our Masters of Official Statistics program, you'll need a Bachelor's Degree in fields such as Statistics, Economics, Mathematics, Actuarial Science, Finance, Accounts, Commerce, IT, Computer Science, Engineering, Agriculture, or any other science and business-related field with a strong background in mathematics. Additionally, you should have a minimum GPA of 2.7 from a recognized higher learning institution."
+            ]
+        },
+        {
+            "tag": "entry-qualification-masters-agricultural-statistics",
+            "patterns": [
+                "What are the entry requirements for the Masters of Science in Agricultural Statistics?",
+                "How can I apply for the Masters of Science in Agricultural Statistics?",
+                "What qualifications do I need for the Masters of Science in Agricultural Statistics?",
+                "Can you tell me the admission criteria for the Masters of Science in Agricultural Statistics?",
+                "What are the eligibility criteria for the Masters of Science in Agricultural Statistics?",
+                "What do I need to join the Masters of Science in Agricultural Statistics program?"
+            ],
+            "responses": [
+                "To join our Masters of Science in Agricultural Statistics program, you'll need a Bachelor's Degree in fields such as Statistics, Official Statistics, Agricultural Statistics and Economics, Agribusiness, Economics, Mathematics, Actuarial Science, Finance, Accounts, Commerce, IT, Computer Science, Engineering, Agriculture, or any other science and business-related field with a strong background in mathematics. Additionally, you should have a minimum GPA of 2.7 from a recognized higher learning institution."
+            ]
+        },
+        {
+            "tag": "entry-qualification-bachelor-official-statistics",
+            "patterns": [
+                "What are the entry requirements for the Bachelor of Official Statistics?",
+                "How can I apply for the Bachelor of Official Statistics?",
+                "What qualifications do I need for the Bachelor of Official Statistics?",
+                "Can you tell me the admission criteria for the Bachelor of Official Statistics?",
+                "What are the eligibility criteria for the Bachelor of Official Statistics?",
+                "What do I need to join the Bachelor of Official Statistics program?"
+            ],
+            "responses": [
+                "To join our Bachelor of Official Statistics program, you'll need two principal passes in subjects such as Advanced Mathematics, Physics, Chemistry, Biology, Accountancy, Agriculture, Geography, Economics, Computers, or Commerce. If one of your principal passes is not in Advanced Mathematics, you'll need a Subsidiary pass in Basic Applied Mathematics or a minimum of 'D' grade in Mathematics at O-Level. Alternatively, a Foundation Programme of the OUT with a minimum GPA of 3.0 is also acceptable.\n\nFor holders of Ordinary Diploma or equivalent qualifications, a Diploma or Full Technician Certificate (FTC) in relevant fields such as Statistics, Computing and Information Technology, Computer Science, Information Technology, Accounting, Transport Finance, Taxation, Banking and Finance, Custom and Tax Administration, Business Information Technology, Procurement, Insurance and Risk Management, Business Management, Business Administration, Development Planning, Community Development, Engineering, Education, Science and Technology, Health-related programs, or Economics with an average of 'B' or a minimum GPA of 3.0 is required."
+            ]
+        },
+        {
+            "tag": "entry-qualification-bachelor-agricultural-statistics-economics",
+            "patterns": [
+                "What are the entry requirements for the Bachelor of Agricultural Statistics and Economics?",
+                "How can I apply for the Bachelor of Agricultural Statistics and Economics?",
+                "What qualifications do I need for the Bachelor of Agricultural Statistics and Economics?",
+                "Can you tell me the admission criteria for the Bachelor of Agricultural Statistics and Economics?",
+                "What are the eligibility criteria for the Bachelor of Agricultural Statistics and Economics?",
+                "What do I need to join the Bachelor of Agricultural Statistics and Economics program?"
+            ],
+            "responses": [
+                "To join our Bachelor of Agricultural Statistics and Economics program, you'll need two principal passes in subjects such as Advanced Mathematics, Physics, Chemistry, Biology, Accountancy, Agriculture, Geography, Economics, Computers, Commerce, or Nutrition. If one of your principal passes is not in Advanced Mathematics, you'll need a Subsidiary pass in Basic Applied Mathematics or a minimum of ‘D’ grade in Mathematics at O-Level. Alternatively, a Foundation Programme of the OUT with a minimum GPA of 3.0 is also acceptable.\n\nFor holders of Ordinary Diploma or equivalent qualifications, a Diploma or Full Technician Certificate (FTC) in relevant fields such as Statistics, Computing and Information Technology, Computer Science, Information Technology, Accounting, Transport Finance, Taxation, Banking and Finance, Custom and Tax Administration, Business Information Technology, Procurement, Insurance and Risk Management, Business Management, Business Administration, Development Planning, Community Development, Engineering, Education, Science and Technology, Health-related programs, or Economics with an average of ‘B’ or a minimum GPA of 3.0 is required."
+            ]
+        },
+        {
+            "tag": "entry-qualification-bachelor-data-science",
+            "patterns": [
+                "What are the entry requirements for the Bachelor of Data Science?",
+                "How can I apply for the Bachelor of Data Science?",
+                "What qualifications do I need for the Bachelor of Data Science?",
+                "Can you tell me the admission criteria for the Bachelor of Data Science?",
+                "What are the eligibility criteria for the Bachelor of Data Science?",
+                "What do I need to join the Bachelor of Data Science program?"
+            ],
+            "responses": [
+                "To join our Bachelor of Data Science program, you'll need two principal passes in subjects such as Advanced Mathematics, Physics, Chemistry, Biology, Accountancy, Agriculture, Geography, Computers, Economics, or Commerce. If one of your principal passes is not in Advanced Mathematics, you'll need a Subsidiary pass in Basic Applied Mathematics or a minimum of ‘D’ grade in Mathematics at O-Level. Alternatively, a Foundation Programme of the OUT with a minimum GPA of 3.0 is also acceptable.\n\nFor holders of Ordinary Diploma or equivalent qualifications, a Diploma or Full Technician Certificate (FTC) in relevant fields such as Data Science, Computer Engineering, Computer Science, Computing Information Technology, Information Communication Technology, Business Administration, Business Information Technology, Statistics, Economics and Finance, Banking and Finance, Taxation, Insurance and Risk Management, Education, Electrical and Electronic Engineering, Telecommunications Engineering, Engineering Sciences, Agriculture with an average of ‘B’ or a minimum GPA of 3.0 is required."
+            ]
+        },
+        {
+            "tag": "entry-qualification-bachelor-business-statistics-economics",
+            "patterns": [
+                "What are the entry requirements for the Bachelor of Business Statistics and Economics?",
+                "How can I apply for the Bachelor of Business Statistics and Economics?",
+                "What qualifications do I need for the Bachelor of Business Statistics and Economics?",
+                "Can you tell me the admission criteria for the Bachelor of Business Statistics and Economics?",
+                "What are the eligibility criteria for the Bachelor of Business Statistics and Economics?",
+                "What do I need to join the Bachelor of Business Statistics and Economics program?"
+            ],
+            "responses": [
+                "To join our Bachelor of Business Statistics and Economics program, you'll need two principal passes in subjects such as Advanced Mathematics, Physics, Chemistry, Biology, Accountancy, Agriculture, Geography, Economics, Computers, or Commerce. If one of your principal passes is not in Advanced Mathematics, you'll need a Subsidiary pass in Basic Applied Mathematics or a minimum of ‘D’ grade in Mathematics at O-Level. Alternatively, a Foundation Programme of the OUT with a minimum GPA of 3.0 is also acceptable.\n\nFor holders of Ordinary Diploma or equivalent qualifications, a Diploma or Full Technician Certificate (FTC) in relevant fields such as Statistics, Computing and Information Technology, Computer Science, Information Technology, Accounting, Transport Finance, Taxation, Banking and Finance, Custom and Tax Administration, Business Information Technology, Procurement, Insurance and Risk Management, Business Management, Business Administration, Development Planning, Community Development, Engineering, Education, Science and Technology, Health-related programs, or Economics with an average of ‘B’ or a minimum GPA of 3.0 is required."
+            ]
+        },
+        {
+            "tag": "entry-qualification-diploma-statistics-nta-level-5",
+            "patterns": [
+                "What are the entry requirements for the Diploma in Statistics (NTA Level 5)?",
+                "How can I apply for the Diploma in Statistics (NTA Level 5)?",
+                "What qualifications do I need for the Diploma in Statistics (NTA Level 5)?",
+                "Can you tell me the admission criteria for the Diploma in Statistics (NTA Level 5)?",
+                "What are the eligibility criteria for the Diploma in Statistics (NTA Level 5)?",
+                "What do I need to join the Diploma in Statistics (NTA Level 5) program?"
+            ],
+            "responses": [
+                "To join our Diploma in Statistics (NTA Level 5) program, you'll need an Advanced Level Certificate in Secondary Education (ACSEE) with a minimum of E and S in subjects such as Advanced Mathematics, Physics, Chemistry, Biology, Geography, Accounts, Economics, Commerce, or Agriculture. If one of the passes is not in Advanced Mathematics or Subsidiary in BAM, you'll need a pass in O' Level Basic Mathematics.\n\nAlternatively, you can join with a Certificate (NTA 4) in Statistics, Business Administration, Accounting, Computer Science, ICT, or its equivalent as established by NACTE or NECTA based on Tanzania's education system."
+            ]
+        },
+        {
+            "tag": "entry-qualification-diploma-information-technology",
+            "patterns": [
+                "What are the entry requirements for the Diploma in Information Technology?",
+                "How can I apply for the Diploma in Information Technology?",
+                "What qualifications do I need for the Diploma in Information Technology?",
+                "Can you tell me the admission criteria for the Diploma in Information Technology?",
+                "What are the eligibility criteria for the Diploma in Information Technology?",
+                "What do I need to join the Diploma in Information Technology program?"
+            ],
+            "responses": [
+                "To join our Diploma in Information Technology program, you'll need an Advanced Level Certificate in Secondary Education (ACSEE) with any E (Principal) and S (Subsidiary) in non-religious subjects.\n\nAlternatively, you can join with a Certificate (NTA 4) in Business Information Technology, Information Technology with Accounting, Information Technology, Computer Science, ICT, Statistics, or any other ICT-related programs."
+            ]
+        },
+        {
+            "tag": "entry-qualification-basic-technician-certificate-statistics-nta-level-4",
+            "patterns": [
+                "What are the entry requirements for the Basic Technician Certificate in Statistics (NTA Level 4)?",
+                "How can I apply for the Basic Technician Certificate in Statistics (NTA Level 4)?",
+                "What qualifications do I need for the Basic Technician Certificate in Statistics (NTA Level 4)?",
+                "Can you tell me the admission criteria for the Basic Technician Certificate in Statistics (NTA Level 4)?",
+                "What are the eligibility criteria for the Basic Technician Certificate in Statistics (NTA Level 4)?",
+                "What do I need to join the Basic Technician Certificate in Statistics (NTA Level 4) program?"
+            ],
+            "responses": [
+                "To join our Basic Technician Certificate in Statistics (NTA Level 4) program, you'll need an Ordinary Level Secondary Certificate with at least four passes including Mathematics and English or its equivalent as established by NECTA based on Tanzania's education system.\n\nAlternatively, you can join with an Ordinary Level Secondary Certificate and NVA 3 in a relevant field from a recognized VETA institution."
+            ]
+        },
+        {
+            "tag": "tuition fee",
+            "patterns": [
+                "Can you give me information about the fees?", 
+                "What are the tuition fees?", 
+                "How much is the fee per semester?", 
+                "What is the annual fee?", 
+                "Tell me about the college fees", 
+                "How much do I need to pay for the first year?", 
+                "What are the hostel fees?", 
+                "How much is the fee for a non-AC room for boys?", 
+                "What are the tuition fees at EASTC?", 
+                "What are the training fees for the Data Science program?",
+                "What are the training fees for the official statistics program?",
+                "data science tuition fee",
+                "official statistics fees"
+        
+            ],
+            "responses": [
+                "For detailed information about the fee structure for different programs offered at Eastern Africa Training Centre, please visit [this link](https://www.eastc.ac.tz/index.php?r=site%2Ffee)."
+            ]
+        },
+        {
+            "tag": "rector",
+            "patterns": [
+                "Who is the principal of the college?", 
+                "What is the name of the rector?", 
+                "Can you tell me the name of the rector?", 
+                "Who is in charge at EASTC?", 
+                "Who is the head of the institution?", 
+                "Who is the rector of EASTC?",
+                "rector"
+            ],
+            "responses": [
+                "Dr. Tumaini M Katunzi is the rector of EASTC."
+            ]
+        },
+        {
+            "tag": "test-and-assignment-request",
+            "patterns": [
+                "I missed a test, what should I do?", 
+                "How do I request to take a missed assignment?", 
+                "What are the steps to request a make-up test?", 
+                "How do I request to sit for a missed test?", 
+                "Can you tell me how to request a make-up assignment?", 
+                "What is the process for requesting a missed test or assignment?"
+            ],
+            "responses": [
+                "If you need to request to sit for a missed test or assignment, visit the student organization office to obtain a form, and then fill it out."
+            ]
+        },
+        {
+            "tag": "admission-steps",
+            "patterns": [
+                "How do I apply for admission?", 
+                "how to apply data science course",
+                "how to apply offical statistics course",
+                "how to apply bussiness statistics and economics course",
+                "What is the process for admission?", 
+                "Can you tell me how to apply for a bachelor degree?", 
+                "What information do I need for the application?", 
+                "What are the steps for admission?", 
+                "How can I take admission at your college?",
+                "admission process"
+            ],
+            "responses": [
+                "To apply for admission at EASTC, please follow these steps:\n\n1. Read the entry qualifications for the program you are interested in.\n2. Create an account via [this link](https://olap.eastc.ac.tz/site/login) by clicking 'Register' on our website.\n3. After registration, log in using the username and password you provided during account creation.\n4. Complete the registration process by filling in your personal details, such as date of birth and region.\n5. Provide next of kin information.\n6. Fill in your education background.\n7. Select your program choice.\n8. Preview your application.\n9. Click 'Submit' to complete your application."
+            ]
+        },
+        {
+            "tag": "examination-appeals-procedures",
+            "patterns": [
+                "How can I appeal my exam results?", 
+                "What is the process for appealing exam results?", 
+                "Can you explain the steps to appeal?", 
+                "When can I submit an appeal?", 
+                "How do I file an appeal for my exam results?"
+            ],
+            "responses": [
+                "If you have any complaints about your examination results, please follow these steps:\n\n1. Fill in the appeal form.\n2. Attach any relevant evidence to support your appeal.\n3. Pay the requisite fee of TZS 100,000/=\n4. Submit the completed appeal form and attached evidence to the Examination Office.\n5. Ensure your appeal is submitted within seven (07) days from the date of release of provisional examination results."
+            ]
+        },
+        {
+            "tag": "conditions-for-readmission-to-studies",
+            "patterns": [
+                "What are the conditions for readmission?", 
+                "How can I be readmitted to studies?", 
+                "What are the requirements for readmission to studies?", 
+                "Can you tell me the criteria for readmission?", 
+                "What do I need to do to be readmitted?", 
+                "How can I get readmitted to EASTC?"
+            ],
+            "responses": [
+                "If you were discontinued from a program on academic grounds (other than exam irregularity), you may be readmitted at any time if you meet the entry requirements. If you postponed studies for fee-related reasons, you must pay all unpaid fees before being readmitted. Discontinued students on academic grounds can reapply after one academic year, provided they have acquired additional qualifications or evidence of extra-mural studies. For health-related postponements, readmission requires a medical recommendation and approval by the Centre."
+            ]
+        },
+        {
+            "tag": "who_are_you",
+            "patterns": [
+                "who are you?", "what is your name?", "identify yourself", "what are you?"
+            ],
+            "responses": [
+                "I am EASTC's virtual assistant, here to help you with information about the Eastern Africa Statistical Training Center. How can I assist you today?"
+            ]
+        },
+
+        {
+            "tag": "history_of_eastc",
+            "patterns": [
+                "tell me about the history of EASTC", "when was EASTC established", "how did EASTC start", "EASTC origins", "history of EASTC"
+            ],
+            "responses": [
+                "The Eastern Africa Statistical Training Centre (EASTC) was established in 1961 to address the shortage of statisticians in Africa. It began operations in 1965 in Dar es Salaam, Tanzania, initially offering Certificate courses and later upgrading to Diploma courses. The center has evolved to offer degree programs and continues to serve multiple countries in Eastern and Southern Africa."
+            ]
+        },
+        {
+            "tag": "regional_institution",
+            "patterns": [
+                "is EASTC a regional institution", "regional status of EASTC", "EASTC regional institution"
+            ],
+            "responses": [
+                "EASTC was regionalized in 1980, serving multiple countries in Eastern and Southern Africa. The center continues to be a regional statistical institution serving Anglophone Africa, with participation from countries like Botswana, Kenya, Uganda, Tanzania, and more."
+            ]
+        },
+        {
+            "tag": "degree_programs",
+            "patterns": [
+                "does EASTC offer degree programs", "EASTC degree courses", "degree programs at EASTC", "degree programmmes", "degree courses"
+            ],
+            "responses": [
+                {
+                    "type": "list",
+                    "content": [
+                        "Bachelor Degree in Official Statistics (3 years)",
+                        "Bachelor Degree in Agricultural Statistics and Economics (3 years)",
+                        "Bachelor of Degree in Data Science (3 years)",
+                        "Bachelor Degree in Business Statistics and Economics (3 years)"
+                    ]
+                }
+            ]
+        },
+
+
+        {
+            "tag": "Master's_programmes",
+            "patterns": [
+                "does EASTC offer masters programs", "EASTC master's courses", "postgraduates programs at EASTC", "postgraduates programmmes", "postgraduate courses"
+            ],
+            "responses": [
+                {
+                    "type": "list",
+                    "content": [
+                        "Masters of Official Statistics",
+                        "Masters of Science in Agricultural Statistics",
+                        "Postgraduate Diploma in Official Statistics",
+                        "Postgraduate Diploma in Agricultural Statistics"
+                    ]
+                }
+            ]
+        },
+
+        {
+            "tag": "location",
+            "patterns": [
+                "Where is EASTC located?", "centre location", "where is eastc?", "where is eastc located", "where is Eastc located", "where is eastc", "Location of EASTC", "EASTC location", "where can i find EASTC", "Is EASTC in Dar es salaam", "Where can I find EASTC in Dodoma", "Where can I find EASTC in Dar es salaam"
+            ],
+            "responses": [
+                "The centre is located at Changanyikeni, kinondoni, Dar es Salaam, Tanzania [click her for directions](https://www.google.com/maps/place/The+Eastern+Africa+Statistical+Training+Centre+(EASTC)/@-6.770999,39.195603,15z/data=!4m6!3m5!1s0x185c4f021b53931f:0x10b6b2a5bbb61d7!8m2!3d-6.770999!4d39.195603!16s%2Fg%2F11cfdjyxd?entry=ttu)"
+            ]
+        }
+    ]
+}
