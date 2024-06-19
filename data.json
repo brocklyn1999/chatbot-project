@@ -84,7 +84,7 @@
                 "library working hours?", "library opening hours?", "is there any library", "library facility", "library facilities", "do you have library", "does the college have library facility", "college library", "where can i get books", "book facility", "Where is library", "Library", "Library information", "Library books information", "Tell me about library", "how many libraries", "eastc library", "where is a eastc library", "Is the library open on weekends?", "What are the library hours?", "when is the library open"
             ],
             "responses": [
-                "The library is the heart of the EASTC and it is an integral part of the Eastern Africa Statistical Training Centre's mission which revolves around teaching, studying, research, and consultancy. Opening hours: Weekdays 08:00 AM - 10:00 PM, Weekends: Saturday 08:00 AM - 05:00 PM and Sunday 09:00 AM - 01:00 PM, Public holidays: Closed. For more information about Centre's library such as Library guidelines and E-resource access visit https://www.eastc.ac.tz/index.php?r=site%2Flibrary2 or https://www.eastc.ac.tz/index.php?r=site%2Flibrary"
+                "The library is the heart of the EASTC and it is an integral part of the Eastern Africa Statistical Training Centre's mission which revolves around teaching, studying, research, and consultancy. Opening hours: Weekdays 08:00 AM - 10:00 PM, Weekends: Saturday 08:00 AM - 05:00 PM and Sunday 09:00 AM - 01:00 PM, Public holidays: Closed. For more information about Centre's library such as Library guidelines and E-resource access  [please click here](https://www.eastc.ac.tz/index.php?r=site%2Flibrary2)"
             ]
         },
         {
@@ -335,7 +335,23 @@
                 "admission process"
             ],
             "responses": [
-                "To apply for admission at EASTC, please follow these steps:\n\n1. Read the entry qualifications for the program you are interested in.\n2. Create an account via [this link](https://olap.eastc.ac.tz/site/login) by clicking 'Register' on our website.\n3. After registration, log in using the username and password you provided during account creation.\n4. Complete the registration process by filling in your personal details, such as date of birth and region.\n5. Provide next of kin information.\n6. Fill in your education background.\n7. Select your program choice.\n8. Preview your application.\n9. Click 'Submit' to complete your application."
+                {
+                    "type":"list",
+                    "content":[
+                        "To apply for admission at EASTC, please follow these steps:",
+                        "Read the entry qualifications for the program you are interested in",
+                        "Create an account via [this link](https://olap.eastc.ac.tz/site/login) by clicking 'Register' on our website",
+                        "After registration, log in using the username and password you provided during account creation",
+                        "Complete the registration process by filling in your personal details, such as date of birth and region.",
+                        "Provide next of kin information",
+                        "Fill in your education background.",
+                        "Select your program choice",
+                        "Preview your application.",
+                        "Click 'Submit' to complete your application"
+
+                    ]
+                }
+                
             ]
         },
         {
@@ -345,7 +361,9 @@
                 "What is the process for appealing exam results?", 
                 "Can you explain the steps to appeal?", 
                 "When can I submit an appeal?", 
-                "How do I file an appeal for my exam results?"
+                "How do I file an appeal for my exam results?", 
+                "appeal",
+                "how do i appeal?"
             ],
             "responses": [
                 "If you have any complaints about your examination results, please follow these steps:\n\n1. Fill in the appeal form.\n2. Attach any relevant evidence to support your appeal.\n3. Pay the requisite fee of TZS 100,000/=\n4. Submit the completed appeal form and attached evidence to the Examination Office.\n5. Ensure your appeal is submitted within seven (07) days from the date of release of provisional examination results."
@@ -437,6 +455,45 @@
             ],
             "responses": [
                 "The centre is located at Changanyikeni, kinondoni, Dar es Salaam, Tanzania [click her for directions](https://www.google.com/maps/place/The+Eastern+Africa+Statistical+Training+Centre+(EASTC)/@-6.770999,39.195603,15z/data=!4m6!3m5!1s0x185c4f021b53931f:0x10b6b2a5bbb61d7!8m2!3d-6.770999!4d39.195603!16s%2Fg%2F11cfdjyxd?entry=ttu)"
+            ]
+        },
+
+        {
+            "tag": "hostels",
+            "patterns": [
+                "does eastc have hotels","accomodation cost", "hostel cost", "is there hostel service", "are hostel available", "how to apply for hostel", "What are the hostel fees?", "fees for hostel", "hostel fees", "accomodation"
+            ],
+            "responses": [
+                {
+                    "type": "list",
+                    "content": [
+                        "Hostels are available for all students wishing to reside inside EASTC Campus and are paid in Full per academic year.",
+                        " Students wishing to reside at EASTC Hostels should have first paid the annual Administrative costs of 185,000 before application and payment of Hostels is done.",
+                        "After payment of the 185,000 administrative Costs, students should report to the EASTC Admission office for obtaining of Registration Number and thereafter submit the Bank slips to the EASTC Accounts Office in order to get the EASTC Receipt.",
+                        "After payment of administrative costs, students may login into their individual students information system accounts (SIS) through the link www.sis2.eastc.ac.tz to proceed with application and payment for Hostels.",
+                        "Please note that No student will be able to apply for Hostels without payment of the administrative costs.",
+                        "accomodation cost per year",
+                        "hostel A & B (4 per room) - Tsh 440,000/=",
+                        "hostel A & B (2 per room) - Tsh 740,000/=",
+                        "hostel 1 (2 per room) - Tsh 1,200,000/=",
+                        "hostel 2 & 3 (4 per room) - Tsh 540,000/="
+                    ]
+                }
+            ]
+        },
+
+
+        {
+            "tag": "examinationation regulations",
+            "patterns":[
+                "what are the examination regulations?",
+                "rules for examinations",
+                "ue rules",
+                "examination rule"
+            ],
+
+            "responses":[
+                "to know more about examination rules [please visit this link](https://www.eastc.ac.tz/index.php?r=site%2Fdoc)"
             ]
         }
     ]
