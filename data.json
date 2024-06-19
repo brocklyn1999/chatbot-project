@@ -137,7 +137,7 @@
         {
             "tag": "entry-qualification",
             "patterns": [
-                "entry qualification for applying", "what are the entry qualifications", "qualifications for admission", "requirements for applying", "admission requirements", "what are the requirements to apply", "qualifications needed for programs", "entry requirements for different programs", "admission criteria for programs", "criteria for applying to programs", "eligibility for programs", "eligibility criteria", "qualification for joining eastc?", "entry qualifications?", "joining qualification?", "how can i join eastc"
+                "entry qualification for applying", "what are the entry qualifications", "qualifications for admission", "requirements for applying", "admission requirements", "what are the requirements to apply", "qualifications needed for programs", "entry requirements for different programs", "admission criteria for programs", "criteria for applying to programs", "eligibility for programs", "eligibility criteria", "qualification for joining eastc?", "entry qualifications?", "joining qualification?", "how can i join eastc", "joining qualification", "entry requirement"
             ],
             "responses": [
                 "please [click here](https://olap.eastc.ac.tz/site/login), to see information on the entry qualifications for different programs."
@@ -332,7 +332,8 @@
                 "What information do I need for the application?", 
                 "What are the steps for admission?", 
                 "How can I take admission at your college?",
-                "admission process"
+                "admission process",
+                "how can i apply?"
             ],
             "responses": [
                 {
@@ -494,6 +495,16 @@
 
             "responses":[
                 "to know more about examination rules [please visit this link](https://www.eastc.ac.tz/index.php?r=site%2Fdoc)"
+            ]
+        },
+
+        {
+            "tag": "data scince",
+            "patterns": [
+                "data science?", "data science course", "data science programme", "data science program "
+            ],
+            "responses": [
+                "EASTC's Data Science programs are designed to offer the students with an opportunity to learn new tools and techniques, how to apply them to solve real-world problems and make data-driven decisions. Our courses cover a wide range of topics in Data Science, including data mining, machine learning, predictive analytics, big data analytics, and much more. The Programme runs for 3 Years [please click here to apply](https://olap.eastc.ac.tz/site/login)"
             ]
         }
     ]
